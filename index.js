@@ -1,7 +1,7 @@
 const fs = require('fs')
 const express = require('express');
 const app = express()
-const port = process.env.PORT || 8000;
+const PORT = Number(process.env.PORT) || 8000;
 const { v4: uuidv4 } = require('uuid');
 
 app.use(express.urlencoded({ extended: true }));
@@ -109,6 +109,6 @@ app.put('/task', updateStatus,  (req, res)=>{
 
 })
 
-app.listen(port, ()=>{
+app.listen(PORT, '0.0.0.0', ()=>{
     console.log(`Listening on port ${port}`)
 })
