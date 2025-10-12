@@ -110,5 +110,5 @@ app.put('/task', updateStatus,  (req, res)=>{
 })
 
 app.listen(PORT, '0.0.0.0', ()=>{
-    console.log(`Listening on port ${port}`)
+    console.log(`Listening on port ${PORT}`)
 })
