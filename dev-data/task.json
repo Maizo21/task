@@ -1,0 +1,76 @@
+{
+  "project_id": "PRJ-001",
+  "name": "Proyecto Pequeño",
+  "owner": "Hernán",
+  "created_at": "2025-10-08",
+  "timezone": "America/Santiago",
+  "tasks": [
+    {
+      "id": "T-1",
+      "title": "Kickoff y alcance",
+      "status": "todo",
+      "estimate_hours": 2,
+      "due_date": "2025-10-10"
+    },
+    {
+      "id": "T-2",
+      "title": "Setup repo y entorno",
+      "status": "todo",
+      "estimate_hours": 2,
+      "due_date": "2025-10-11",
+      "dependencies": ["T-1"],
+      "checklist": [
+        { "item": "Crear repo/ramas", "done": false },
+        { "item": "README + .env.example", "done": false }
+      ]
+    },
+    {
+      "id": "T-3",
+      "title": "Wireframe rápido",
+      "status": "todo",
+      "estimate_hours": 3,
+      "due_date": "2025-10-12",
+      "dependencies": ["T-1"]
+    },
+    {
+      "id": "T-4",
+      "title": "MVP (1–2 pantallas + CRUD básico)",
+      "status": "todo",
+      "estimate_hours": 8,
+      "due_date": "2025-10-16",
+      "dependencies": ["T-2", "T-3"]
+    },
+    {
+      "id": "T-5",
+      "title": "Pruebas y ajustes",
+      "status": "todo",
+      "estimate_hours": 3,
+      "due_date": "2025-10-17",
+      "dependencies": ["T-4"],
+      "checklist": [
+        { "item": "Smoke tests", "done": false },
+        { "item": "Revisión rápida de performance", "done": false }
+      ]
+    },
+    {
+      "id": "T-6",
+      "title": "Lanzamiento + retro breve",
+      "status": "done",
+      "estimate_hours": 2,
+      "due_date": "2025-10-18",
+      "dependencies": ["T-5"]
+    },
+    {
+      "id": "ba436db3-2a43-405e-84b2-591ae9b91e87",
+      "task": { "task": "Test task" }
+    },
+    {
+      "id": "5b46f564-a036-4500-a381-147ef4d59273",
+      "task": { "task": "Test task 2" }
+    },
+    {
+      "id": "7d0aa2fb-e9aa-4217-a8f7-968452b46804",
+      "task": { "task": "Test task 3" }
+    }
+  ]
+}
