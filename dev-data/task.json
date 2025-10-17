@@ -61,16 +61,15 @@
       "dependencies": ["T-5"]
     },
     {
-      "id": "ba436db3-2a43-405e-84b2-591ae9b91e87",
-      "task": { "task": "Test task" }
-    },
-    {
       "id": "5b46f564-a036-4500-a381-147ef4d59273",
       "task": { "task": "Test task 2" }
     },
     {
-      "id": "7d0aa2fb-e9aa-4217-a8f7-968452b46804",
+      "id": "6c25cdd9-f07c-4653-8a47-00143ea20323",
       "task": { "task": "Test task 3" }
-    }
+    },
+    { "id": "27fd9196-06f8-41a3-9e76-44ed24078790", "task": "Test task 3" },
+    { "id": "bf52e130-c08b-49db-ade7-deb9686932f0", "task": "Test task 3" },
+    { "id": "a3b09e8b-c897-4f7c-911a-eb415f867c38", "task": "Test task 3" }
   ]
 }
